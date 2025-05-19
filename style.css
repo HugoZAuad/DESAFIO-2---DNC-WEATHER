@@ -48,3 +48,22 @@ body {
     height: 10.9rem;
     margin-right: 14.1rem;
 }
+
+main{
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    padding: 5rem 8rem;
+    margin: 3rem 0 20rem 25rem;
+    border-radius: 1.6rem;
+    width: 20rem;
+}
+
+main label{
+    font-weight: 400;
+    font-size: 1.3rem;
+}
+
+main input{
+    
+}
