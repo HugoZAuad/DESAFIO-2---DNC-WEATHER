@@ -40,30 +40,59 @@ body {
   margin: 12.5rem 0 0 14.1rem;
 
   font-weight: 800;
-  font-size: 2rem;  
+  font-size: 2rem;
 }
 
-#aside img{
-    width: 14.1rem;
-    height: 10.9rem;
-    margin-right: 14.1rem;
+#aside img {
+  width: 14.1rem;
+  height: 10.9rem;
+  margin-right: 14.1rem;
 }
 
-main{
-    background-color: #ffffff;
-    display: flex;
-    flex-direction: column;
-    padding: 5rem 8rem;
-    margin: 3rem 0 20rem 25rem;
-    border-radius: 1.6rem;
-    width: 20rem;
+main {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  padding: 5rem 10rem;
+  justify-content: center;
+  margin: 3rem 0 20rem 20rem;
+  border-radius: 1.6rem;
+  width: 30rem;
 }
 
-main label{
-    font-weight: 400;
-    font-size: 1.3rem;
+main label {
+  font-weight: 400;
+  font-size: 1rem;
 }
 
-main input{
-    
+main input {
+  background-color: #f2f2f2e5;
+  color: #39393980;
+  border: none;
+  border-radius: 0.6rem;
+  padding: 1rem;
+  margin: 1rem 0;
+}
+
+main #loc {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+main button {
+  background-color: #0c70f2e5;
+  color: #ffffff;
+  border: none;
+  border-radius: 0.6rem;
+  cursor: pointer;
+
+  font-weight: 600;
+  font-size: 1.7rem;
+  padding: 0.6rem;
+  margin-top: 1rem;
+}
+
+main button:hover {
+  background-color: #0c56b8;
 }
