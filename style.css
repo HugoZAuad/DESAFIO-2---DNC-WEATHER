@@ -1,4 +1,4 @@
-body {
+  body {
   margin: 0;
   padding: 0;
   font-family: "Montserrat", sans-serif;
@@ -389,8 +389,48 @@ img {
     font-size: 1.1rem;
   }
 
-  footer {
-    font-size: 0.6rem;
-    padding: 1rem;
+footer {
+  font-size: 0.6rem;
+  padding: 1rem;
+}
+
+@media (min-width: 2560px) {
+  body {
+    max-width: 2560px;
+    margin: 0 auto;
   }
+
+  #header {
+    justify-content: center;
+  }
+
+  #header nav ul {
+    margin-left: 0;
+    justify-content: center;
+  }
+
+  #header h1 {
+    margin-left: 0;
+  }
+
+  aside {
+    margin: 0 auto;
+    justify-content: center;
+  }
+
+  main {
+    margin: 3rem auto 20rem auto;
+    padding: 5rem 10rem;
+    width: 30rem;
+  }
+
+  table {
+    width: 70%;
+    margin: 0 auto 18rem auto;
+  }
+
+  #prev-new {
+    margin: 0 auto 18rem auto;
+  }
+}
 }
