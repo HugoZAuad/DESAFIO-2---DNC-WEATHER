@@ -18,8 +18,7 @@ body {
   margin-left: 3rem;
 
   font-weight: 800;
-  font-size: 3rem;
-  line-height: 100%;
+  font-size: 2rem;
 }
 
 #header nav ul {
@@ -27,7 +26,7 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: end;
-  margin-left: 32rem;
+  margin-left: 38rem;
 
   font-weight: 800;
   font-size: 1.3rem;
@@ -40,7 +39,7 @@ aside {
   margin: 12.5rem 0 0 14.1rem;
 
   font-weight: 800;
-  font-size: 2rem;
+  font-size: 1.8rem;
 }
 
 aside img {
@@ -103,7 +102,7 @@ main button:hover {
   justify-content: center;
 
   font-weight: 800;
-  font-size: 2.7rem;
+  font-size: 2.5rem;
 }
 
 #text-mid img {
@@ -141,7 +140,7 @@ td {
   flex-direction: row;
 
   font-weight: 800;
-  font-size: 2.7rem;
+  font-size: 2rem;
   text-align: center;
   justify-content: center;
   gap: 2rem;
@@ -154,9 +153,20 @@ td {
   background-color: #ffffff;
   border: .05rem solid #0C70F2;
   border-radius: 1.6rem;
-  max-width: 50rem;
-  margin: 0 0 18rem 18rem;
+  max-width: 60rem;
+  margin: 0 0 18rem 12rem;
 
   display: flex;
   justify-content: center;
+}
+
+footer{
+  display: flex;
+  background-color: #0C70F2;
+  color: #FFFFFF;
+  justify-content: flex-end;
+  padding: 1rem;
+
+  font-weight: 400;
+  font-size: .6rem;
 }
